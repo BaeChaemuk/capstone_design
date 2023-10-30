@@ -1086,31 +1086,31 @@ section {
   padding: 10px 12px;
 }
 
-.appointment .php-email-form button[type="submit"] {
+.appointment button[type="submit"] {
   background: #1977cc;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
-.appointment .php-email-form button[type="submit"]:hover {
+.appointment button[type="submit"]:hover {
   background: #1c84e3;
 }
 
-.appointment .php-email-form button[type="button"] {
+.appointment button[type="button"] {
   background: #1977cc;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
-.appointment .php-email-form button[type="button"]:hover {
+.appointment button[type="button"]:hover {
   background: #1c84e3;
 }
 /*--------------------------------------------------------------
