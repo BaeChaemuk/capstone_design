@@ -114,20 +114,30 @@
 
     <section id="appointment" class="appointment section-bg">
       <div class="container">
-       
         <form action="result.html" method="post" enctype="multipart/form-data">
+          <!-- 앞면 이미지 업로드 -->
           <div class="mb-3">
-            <label for="imageUpload" class="form-label">이미지 선택:</label>
-            <input type="file" class="form-control" id="imageUpload" name="uploadedImage" accept="image/*" onchange="previewImage(event)">
+            <label for="imageUploadFront" class="form-label">이미지 선택(앞면):</label>
+            <input type="file" class="form-control" id="imageUploadFront" name="uploadedImageFront" accept="image/*" onchange="previewImageFront(event)">
           </div>
           <div class="mb-3">
-            <img id="imagePreview" src="" alt="Selected Image" style="max-width: 300px; display: none;">
+            <img id="imagePreviewFront" src="" alt="Selected Image Front" style="max-width: 300px; display: none;">
           </div>
-          <button type="submit" class="btn btn-primary" >업로드</button>
+    
+          <!-- 뒷면 이미지 업로드 -->
+          <div class="mb-3">
+            <label for="imageUploadBack" class="form-label">이미지 선택(뒷면):</label>
+            <input type="file" class="form-control" id="imageUploadBack" name="uploadedImageBack" accept="image/*" onchange="previewImageBack(event)">
+          </div>
+          <div class="mb-3">
+            <img id="imagePreviewBack" src="" alt="Selected Image Back" style="max-width: 300px; display: none;">
+          </div>
+    
+          <button type="submit" class="btn btn-primary">업로드</button>
         </form>
-        
       </div>
     </section>
+    
 
   </main><!-- End #main -->
 

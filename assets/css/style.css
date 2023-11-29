@@ -732,6 +732,51 @@ section {
   color: #848484;
 }
 
+.why-us .row .col-lg-6 .align-items-stretch {
+  margin-bottom: 5px;
+}
+
+.why-us .t {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.why-us .t .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 999;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%); /* 툴팁을 중앙 정렬 */
+  margin-left: -60px;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.why-us .t .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.why-us .t:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
