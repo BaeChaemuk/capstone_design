@@ -756,7 +756,6 @@ section {
   left: 50%;
   transform: translateX(-50%); /* 툴팁을 중앙 정렬 */
   margin-left: -60px;
-
   opacity: 0;
   transition: opacity 0.3s;
 }
