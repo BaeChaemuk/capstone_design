@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -50,6 +50,8 @@
   
 }
 
+
+
 </script>
 <body>
 
@@ -81,7 +83,7 @@
         <ul>
           <li><a class="nav-link scrollto " href="home.html">Home</a></li>
           <li><a class="nav-link scrollto" href="health.html">health</a></li>
-         
+          
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -99,41 +101,16 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h1 class="logo me-auto">약 이미지 업로드</h1>
           <ol>
             <li><a href="home.html">Home</a></li>
-            <li>Image upload</li>
+            <li>information4</li>
           </ol>
         </div>
+      
 
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <section id="appointment" class="appointment section-bg">
-      <div class="container">
-        <form action="result.html" method="post" enctype="multipart/form-data">
-          <!-- 앞면 이미지 업로드 -->
-          <div class="mb-3">
-            <label for="imageUploadFront" class="form-label">이미지 선택(앞면):</label>
-            <input type="file" class="form-control" id="imageUploadFront" name="uploadedImageFront" accept="image/*" onchange="previewImageFront(event)">
-          </div>
-          <div class="mb-3">
-            <img id="imagePreviewFront" src="" alt="Selected Image Front" style="max-width: 300px; display: none;">
-          </div>
-    
-          <!-- 뒷면 이미지 업로드 -->
-          <div class="mb-3">
-            <label for="imageUploadBack" class="form-label">이미지 선택(뒷면):</label>
-            <input type="file" class="form-control" id="imageUploadBack" name="uploadedImageBack" accept="image/*" onchange="previewImageBack(event)">
-          </div>
-          <div class="mb-3">
-            <img id="imagePreviewBack" src="" alt="Selected Image Back" style="max-width: 300px; display: none;">
-          </div>
-    
-          <button type="submit" class="btn btn-primary">업로드</button>
-        </form>
-      </div>
-    </section>
     
 
   </main><!-- End #main -->
@@ -146,18 +123,13 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Medilab</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+            <h3>AiOsee</h3>
+            <img src="./assets/img/medicine.jpg" width="300px">
           </div>
-
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>대체할 수 있는 약</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
@@ -178,13 +150,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
+          
 
         </div>
       </div>

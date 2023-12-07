@@ -37,22 +37,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-<script>
-  function previewImage(event) {
-  const reader = new FileReader();
-  reader.onload = function() {
-    const output = document.getElementById('imagePreview');
-    output.src = reader.result;
-    output.style.display = 'block';
- 
-  };
-  reader.readAsDataURL(event.target.files[0]);
-  
-}
 
-
-
-</script>
 <body>
 
   <!-- ======= Top Bar ======= -->
@@ -83,9 +68,7 @@
         <ul>
           <li><a class="nav-link scrollto " href="home.html">Home</a></li>
           <li><a class="nav-link scrollto" href="health.html">health</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+        
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -117,23 +100,26 @@
       <div class="row">
           <div class="col-lg-6 align-items-stretch">
             <div class="content">
+              <div class="special">
               <h2>이미지</h2>
               <img src="" alt="Uploaded Image">
               <img src="" alt="Uploaded Image">
             </div>
           </div>
+        </div>
         
          
           <div class="col-lg-6">
+         
+
+           
             <div class="row">
               <div class="col-lg-6 align-items-stretch">
                 <div class="icon-boxes flex-column justify-content-center">
                   <div class="row">
                     <div class="col-lg-13 align-items-stretch">
                       <div class="icon-box mt-4 mt-xl-0">
-                        <h2 class="t">이 약의 정보는 <br>무엇일까요?
-                          <div class="tooltiptext">여기에 성분 정보를 적어주세요.dfdgfdgdfgdgfdfgdfgdfgdfgdfgdfgdfgdfgdfg안녕ㅇㄴ안ㅇ</div>
-                        </h2>
+                        <h2><a href="information1.html">이 약의 정보는 <br>무엇일까요?</a></h2>
                       </div>
                     </div>
                   </div>
@@ -144,8 +130,7 @@
                   <div class="row">
                     <div class="col-lg-13 align-items-stretch">
                       <div class="icon-box mt-4 mt-xl-0">
-                        <h2 class="t">이 약은 어떤 <br>알러지를 유발할까요?
-                          <div class="tooltiptext">여기에 성분 정보를 적어주세요.</div>
+                        <h2><a href="information2.html">이 약은 어떤 <br>알러지를 유발할까요?</a>
                         </h2>
                       </div>
                     </div>
@@ -156,9 +141,7 @@
                   <div class="row">
                     <div class="col-lg-13 align-items-stretch">
                       <div class="icon-box mt-4 mt-xl-0">
-                        <h2 class="t">이 약은 <br> 같이 먹지 마요!!
-                          <div class="tooltiptext">여기에 성분 정보를 적어주세요.sdfsdfsdfsdfsdfssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</div>
-                        </h2>
+                        <h2><a href="information3.html">이 약은 <br> 같이 먹지 마요!!</a></h2>
                       </div>
                     </div>
                   </div>
@@ -168,15 +151,14 @@
                   <div class="row">
                     <div class="col-lg-13 align-items-stretch">
                       <div class="icon-box mt-4 mt-xl-0">
-                        <h2 class="t">이런 약은<br>어때요?
-                          <div class="tooltiptext">여기에 성분 정보를 적어주세요.</div>
-                        </h2>
+                        <h2><a href="information4.html">이런 약은 <br> 어때요?</a></h2>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
     
@@ -196,46 +178,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Medilab</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
+          
 
         </div>
       </div>

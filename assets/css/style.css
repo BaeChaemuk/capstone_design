@@ -463,7 +463,7 @@ h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  /* background: url("../img/hero-bg.jpg") top center; */
+  /* background: url("../img/image2.jpg") top center; */
   background-size: cover;
   margin-bottom: -200px;
 }
@@ -698,7 +698,7 @@ section {
   background: #fff;
 }
 
-.why-us .content img {
+.why-us .content .special img {
   border: 3px solid white; /* 테두리의 두께와 색상 설정 */
   padding: 10px; /* 테두리와 이미지 사이의 여백 설정 */
   max-width: 100%; /* 이미지가 부모 요소를 넘지 않도록 최대 너비 설정 */
@@ -758,6 +758,8 @@ section {
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
+  border: 3px solid #1977cc; /* 테두리의 두께와 색상 설정 */
+  padding: 10px; /* 테두리와 이미지 사이의 여백 설정*/
 }
 
 .why-us .t .tooltiptext::after {
